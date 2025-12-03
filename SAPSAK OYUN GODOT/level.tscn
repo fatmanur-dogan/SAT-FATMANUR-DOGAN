@@ -1,0 +1,170 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://coin.tscn" type="PackedScene" id=2]
+[ext_resource path="res://duvar.tscn" type="PackedScene" id=3]
+
+[node name="level" type="Node2D"]
+position = Vector2( -91, -13 )
+__meta__ = {
+"_edit_ik_": true
+}
+
+[node name="player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 194, 193 )
+
+[node name="coin" parent="player" instance=ExtResource( 2 )]
+position = Vector2( -179, 49 )
+
+[node name="duvar" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( -406, -185 )
+__meta__ = {
+"_edit_ik_": true
+}
+
+[node name="duvar3" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( 403, -206 )
+
+[node name="duvar4" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( 811, -195 )
+
+[node name="duvar5" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( 1207, -206 )
+
+[node name="duvar6" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( 1637, -195 )
+
+[node name="duvar7" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( 2056, -184 )
+
+[node name="duvar8" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( 2475, -184 )
+
+[node name="duvar9" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( 2894, -184 )
+
+[node name="duvar10" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( 3313, -184 )
+
+[node name="duvar11" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( -828, -184 )
+
+[node name="duvar12" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( -1247, -195 )
+
+[node name="duvar13" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( -1666, -195 )
+
+[node name="duvar14" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( -2096, -184 )
+
+[node name="duvar15" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( -2515, -195 )
+
+[node name="duvar27" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( -2515, -652 )
+
+[node name="duvar28" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( -2515, -1083 )
+
+[node name="duvar29" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( -2502, -1567 )
+
+[node name="duvar30" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( -2502, -2011 )
+
+[node name="duvar31" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( -2502, -2468 )
+
+[node name="duvar32" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( -2502, -2925 )
+
+[node name="duvar33" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( -2489, -3356 )
+
+[node name="duvar34" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( -2476, -3827 )
+
+[node name="duvar35" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( -2476, -4298 )
+
+[node name="duvar36" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( -2476, -4729 )
+
+[node name="duvar37" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( -2072, -4716 )
+
+[node name="duvar38" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( -1655, -4716 )
+
+[node name="duvar39" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( -1238, -4716 )
+
+[node name="duvar40" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( -821, -4716 )
+
+[node name="duvar41" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( -404, -4703 )
+
+[node name="duvar42" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( 13, -4676 )
+
+[node name="duvar43" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( 430, -4663 )
+
+[node name="duvar44" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( 861, -4690 )
+
+[node name="duvar45" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( 1278, -4677 )
+
+[node name="duvar46" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( 1682, -4664 )
+
+[node name="duvar47" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( 2099, -4664 )
+
+[node name="duvar48" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( 2516, -4664 )
+
+[node name="duvar49" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( 2933, -4651 )
+
+[node name="duvar50" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( 3350, -4651 )
+
+[node name="duvar16" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( 3730, -172 )
+
+[node name="duvar17" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( 3730, -639 )
+
+[node name="duvar18" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( 3718, -1082 )
+
+[node name="duvar19" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( 3730, -1537 )
+
+[node name="duvar20" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( 3730, -1980 )
+
+[node name="duvar21" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( 3730, -2435 )
+
+[node name="duvar22" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( 3730, -2890 )
+
+[node name="duvar23" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( 3742, -3322 )
+
+[node name="duvar24" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( 3742, -3777 )
+
+[node name="duvar25" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( 3754, -4209 )
+
+[node name="duvar26" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( 3754, -4676 )
+
+[node name="duvar2" parent="player/coin" instance=ExtResource( 3 )]
+position = Vector2( 0, -200 )
